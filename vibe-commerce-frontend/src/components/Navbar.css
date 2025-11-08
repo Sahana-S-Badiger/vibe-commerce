@@ -1,0 +1,35 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f7f7f7;
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.search-cart {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar {
+  padding: 5px 10px;
+  width: 250px;
+  margin-right: 20px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.cart {
+  font-weight: bold;
+}
